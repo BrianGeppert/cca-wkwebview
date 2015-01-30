@@ -1,0 +1,171 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "framework": {
+                "parents": {
+                    "AssetsLibrary.framework": [
+                        {
+                            "xml": "false",
+                            "count": 1
+                        }
+                    ],
+                    "MobileCoreServices.framework": [
+                        {
+                            "xml": "false",
+                            "count": 1
+                        }
+                    ],
+                    "CoreGraphics.framework": [
+                        {
+                            "xml": "false",
+                            "count": 1
+                        }
+                    ],
+                    "SystemConfiguration.framework": [
+                        {
+                            "xml": "true",
+                            "count": 1
+                        }
+                    ],
+                    "WebKit.framework": [
+                        {
+                            "xml": "false",
+                            "count": 1
+                        }
+                    ],
+                    "libz.dylib": [
+                        {
+                            "xml": "false",
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            "config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"File\"><param name=\"ios-package\" value=\"CDVFile\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"InAppBrowser\"><param name=\"ios-package\" value=\"CDVInAppBrowser\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"NetworkStatus\"><param name=\"ios-package\" value=\"CDVConnection\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"StatusBar\"><param name=\"ios-package\" value=\"CDVStatusBar\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<preference name=\"StatusBarOverlaysWebView\" value=\"true\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<preference name=\"StatusBarStyle\" value=\"lightcontent\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"WKWebViewPolyfill\"><param name=\"ios-package\" value=\"WKWebViewPolyfill\" /></feature>",
+                            "count": 1
+                        }
+                    ],
+                    "/widget": [
+                        {
+                            "xml": "<feature name=\"ChromeStorage\"><param name=\"ios-package\" value=\"ChromeStorage\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"ChromeAppWindow\"><param name=\"ios-package\" value=\"ChromeAppWindow\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"ChromeBootstrap\"><param name=\"ios-package\" value=\"ChromeBootstrap\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"ChromeExtensionURLs\"><param name=\"ios-package\" value=\"ChromeExtensionURLs\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<access origin=\"chrome-extension://*\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<preference name=\"KeyboardDisplayRequiresUserAction\" value=\"false\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<preference name=\"DisallowOverscroll\" value=\"true\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"ChromeI18n\"><param name=\"ios-package\" value=\"ChromeI18n\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"ChromeNavigation\"><param name=\"ios-package\" value=\"ChromeNavigation\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "installed_plugins": {
+        "org.apache.cordova.engine.crosswalk": {
+            "PACKAGE_NAME": "com.briangeppert.test.CcaTest"
+        },
+        "org.apache.cordova.file": {
+            "PACKAGE_NAME": "com.briangeppert.test.CcaTest"
+        },
+        "org.apache.cordova.inappbrowser": {
+            "PACKAGE_NAME": "com.briangeppert.test.CcaTest"
+        },
+        "org.apache.cordova.network-information": {
+            "PACKAGE_NAME": "com.briangeppert.test.CcaTest"
+        },
+        "org.apache.cordova.statusbar": {
+            "PACKAGE_NAME": "com.briangeppert.test.CcaTest"
+        },
+        "org.chromium.bootstrap": {
+            "PACKAGE_NAME": "com.briangeppert.test.CcaTest"
+        },
+        "org.chromium.i18n": {
+            "PACKAGE_NAME": "com.briangeppert.test.CcaTest"
+        },
+        "org.chromium.navigation": {
+            "PACKAGE_NAME": "com.briangeppert.test.CcaTest"
+        },
+        "org.chromium.polyfill.blob_constructor": {
+            "PACKAGE_NAME": "com.briangeppert.test.CcaTest"
+        },
+        "org.chromium.polyfill.customevent": {
+            "PACKAGE_NAME": "com.briangeppert.test.CcaTest"
+        },
+        "org.chromium.polyfill.xhr_features": {
+            "PACKAGE_NAME": "com.briangeppert.test.CcaTest"
+        },
+        "com.telerik.plugins.wkwebview": {
+            "PACKAGE_NAME": "com.briangeppert.test.CcaTest"
+        }
+    },
+    "dependent_plugins": {
+        "org.chromium.common": {
+            "PACKAGE_NAME": "com.briangeppert.test.CcaTest"
+        },
+        "org.chromium.storage": {
+            "PACKAGE_NAME": "com.briangeppert.test.CcaTest"
+        },
+        "org.chromium.runtime": {
+            "PACKAGE_NAME": "com.briangeppert.test.CcaTest"
+        }
+    }
+}
